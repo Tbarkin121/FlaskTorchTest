@@ -8,7 +8,7 @@ tensor = torch.tensor([1.0, 2.0, 3.0, 4.0])
 data = {"tensor": tensor.tolist()}
 
 # Make a request to the Flask server
-response = requests.post("http://127.0.0.1:5000/process_tensor", json=data)
+response = requests.post("http://10.0.0.205:5000/process_tensor", json=data)
 # response = requests.post("http://pythontestenv.eba-258e7hvq.us-east-1.elasticbeanstalk.com//process_tensor", json=data)
 
 # Convert the result back to a tensor

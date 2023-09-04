@@ -1,0 +1,6 @@
+# app/requirements.txt
+torch
+torchaudio
+torchvision
+Flask
+gunicorn
